@@ -1,0 +1,946 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@500&display=swap');
+
+*{
+    margin: 0 auto;
+}
+
+.navbar {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.nav-left {
+    margin: auto;
+}
+
+.logo {
+    margin: auto;
+}
+
+.nav-right {
+    margin: auto;
+}
+
+a {
+    font-family: 'Anek Tamil', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: rgba(246, 191, 0, 1)
+}
+
+i{
+    color:rgba(246, 191, 0, 1) ;
+}
+
+h2{
+    color: rgba(246, 191, 0, 1) ;
+    font-family: 'Anek Tamil', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.1;
+    margin-left: 50px;
+}
+
+h3{
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 30px;
+}
+
+h4{
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+h6{
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 15px
+}
+
+p{
+    color: white;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+
+.home {
+  position: relative;
+  background-image:url(./../img/home.jpg) ;
+  background-position: center;
+  justify-content: center;
+  background-size: cover;
+  width: 100%;
+  height: 120vh;
+  text-align: left;
+  padding: 1px;
+}
+
+.home-img h3{
+    color:rgba(246, 191, 0, 1) ; 
+    padding-top: 450px;
+    margin-left: 50px;
+}
+
+.sports{
+    width: 100%;
+    background-color: rgba(36, 39, 46, 1);
+    padding: 1px;
+}
+
+.sport-heading {
+    text-align: center;
+padding-top: 40px;
+}
+
+.sport-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.boxe {
+    background-color: black;
+    border: solid 1px rgb(255, 217, 0);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+}
+
+.boxe p{
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+.boxe-img{
+    width: 120px;
+    height: 120px;
+}
+
+.button-boxe{
+    color:rgba(36, 39, 46, 1);  
+    opacity: 15.0;
+    position: relative;
+    top:35px ;
+    border: 0;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 217, 0);
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.pool {
+    background-color: black;
+    border: solid 1px rgba(26, 27, 32, 1);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 450px;
+}
+
+.pool p{
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.pool-img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button-pool{
+    color:rgba(36, 39, 46, 1);  
+    position: relative;
+    top:25px ;
+    border: 0;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color:rgb(255, 217, 0); 
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.basket {
+    background-color: black;
+    border: solid 1px rgb(255, 217, 0);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+}
+
+.basket p{
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+.basket-img{
+    width: 120px;
+    height: 120px;
+}
+
+.button-basket{
+    color:rgba(36, 39, 46, 1);  
+    opacity: 15.0;
+    position: relative;
+    top:10px ;
+    border: 0;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 217, 0);
+    font-family: 'Anek Tamil', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sports .sport-body p{
+    color: white;
+}
+
+.tarifs {
+    background-color: rgba(26, 27, 32, 1);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tarif-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+
+.tarifs .tarif-box .tarif p{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2.5;
+}
+
+.tarifs .tarif-box .tarif h3{
+    font-size: 20px;
+}
+
+.tarifs .tarif-box .middle-tarif p{
+    padding-right: 10px;
+    line-height: 2.5;
+}
+
+.tarifs .tarif-box .middle-tarif h3{
+    font-size: 20px;
+}
+
+.tarif {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border: solid 5px rgba(36, 39, 46, 1);
+    border-radius: 10px;
+}
+
+.heading{
+    margin-top: 30px;
+    background-color:rgba(36, 39, 46, 1); 
+}
+
+.middle-heading{
+    margin-top: 30px;
+    background-color:rgb(255, 217, 0);
+    opacity: 15.0; 
+}
+
+.middle-tarif{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border: solid 5px rgb(255, 217, 0);
+    border-radius: 10px;
+}
+
+.services{
+    background-color: rgba(36, 39, 46, 1);
+    padding: 1px;
+}
+.services .service-top .service h3{
+    text-align: center;
+}
+
+.services .service-top .service p{
+    color: white;
+}
+
+.service-top{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.service-bottom{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.service h3{
+    text-align: center;
+}
+
+.service{
+width: 50%;
+height: 380px;
+}
+
+.scale{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.scale-img{
+    width: 60px;
+    height: 60px;
+}
+
+.scale-text{
+    width: 50%;
+    height: 50px;
+}
+
+.scale-text h6{
+    font-size: 14px;
+}
+
+.scale-text p{
+    font-size: 12px;
+    line-height: 1.O;
+}
+
+.dumbbell{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.dumbbell-img{
+    width: 60px;
+    height: 60px;
+}
+
+.dumbbell-text{
+    width: 50%;
+    height: 50px;
+}
+
+.dumbbell-text h6{
+    font-size: 14px;
+}
+   
+
+.dumbbell-text p{
+    font-size: 12px;
+    line-height: 1.O;
+}
+
+.massage{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.massage-img{
+    width: 60px;
+    height: 60px;
+}
+
+.massage-text{
+    width: 50%;
+    height: 50px;
+}
+
+.massage-text h6{
+    font-size: 14px;
+}
+
+
+.massage-text p{
+    font-size: 12px;
+    line-height: 1.O;
+}
+
+.chigbo{
+    width: 50%;
+    height: 380px;
+}
+
+.reason{
+    width: 50%;
+    height: 380px;
+}
+
+form{
+    padding-left: 30px;
+}
+
+.formular-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+
+.formular-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+
+
+#prénom{
+    border: none;
+    background-color: rgba(26, 27, 32, 1);
+    width: 144px; 
+    height: 36px;
+}
+
+#nom{
+    border: none;
+    background-color: rgba(26, 27, 32, 1);
+    width: 144px; 
+    height: 36px;
+}
+
+#email{
+    border: none;
+    background-color: rgba(26, 27, 32, 1);
+    width: 144px; 
+    height: 36px;
+}
+
+#programmes{
+    border: none;
+    background-color: rgba(26, 27, 32, 1);
+    height: 40px;
+}
+
+#expériences{
+    border: none;
+    background-color: rgba(26, 27, 32, 1);
+    width: 410px;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.sub{
+    border: 0;
+    border-radius: 5px;
+    width: 150px; 
+    height: 30px;
+    background-color:rgba(246, 191, 0, 1) ;
+    margin-top: 20px;
+    margin-left: 369px;
+}
+
+.service h3{
+    text-decoration-line: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.reviews{
+    background-color:rgba(26, 27, 32, 1); 
+    padding-top: 30px;
+    
+}
+
+.reviews h3{
+    text-align: center;
+}
+
+.all-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.review{
+    height: 300px;
+    background-color:rgba(36, 39, 46, 1); 
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.review-darelle{
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.review-darelle p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.review-carla{
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.review-carla p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.review-frank{
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.review-frank p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.client{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgba(246, 191, 0, 1) ;
+}
+
+.fa-regular fa-star{
+    background-color:rgba(246, 191, 0, 1) ; 
+}
+
+.reviews .all-reviews .review .review-darelle p{
+    color: white;
+}
+
+.reviews .all-reviews .review .review-carla p{
+    color: white;
+}
+
+.reviews .all-reviews .review .review-frank p{
+color: white;
+}
+
+.partenaires{
+    background-color: black;
+    padding-top: 50px;  
+}
+
+.partenaire-body{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.partenaires h3{
+    text-align: center;
+}
+
+.partenaire-addidas{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.partenaire-addidas p{
+    padding-top: 100px;
+    font-size: 15px;
+    line-height: 1.0;
+}
+
+.partenaire-nike p{
+    padding-top: 100px;
+    font-size: 15px;
+    line-height: 1.0; 
+}
+
+.partenaire-nike{
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.partenaires p{
+    color: white;
+}
+
+.about{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./../img/althère.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.about-us h3{
+color: white;
+}
+
+.about-us p{
+    font-size: 18px;
+    color: white;
+    line-height: 2.0;
+}
+
+.contacts{
+    margin: 0;
+    background-color: black;
+    display: flex;
+}
+
+.maps{
+    width: 50%;
+}
+
+.contact{
+    width: 50%;
+    padding-top: 10px;
+}
+
+.contacts h3{
+    text-align: center;
+}
+
+.contact-body{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.information a{
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+}
+
+
+.information{
+    position: relative;
+    bottom: 25px;
+    padding-left: 30px;
+}
+
+.informtion-right{
+    padding-right: 30px;
+}
+
+.location{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phone{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.location p{
+    display: inline-block;
+    color: white;
+}
+
+.phone p{
+    display: inline-block;
+    color: white;
+}
+
+.mail p{
+    color: white;
+}
+
+.net-box{
+    position: relative;
+    bottom: 30px;
+}
+
+.net-box p{
+    display: inline-block;
+    color: white;
+}
+
+.information-right{
+    padding-left: 200px;
+}
+
+.fa-phone{
+    display: inline-block;
+    position: relative;
+    bottom: 12px;
+}
+
+.social-media{
+    position: relative;
+    bottom: 8px;
+    padding-left: 45px;
+}
+
+.twitter{
+display: inline-block;
+}
+
+.instagram{
+    display: inline-block;
+}
+
+.facebook{
+    display: inline-block;
+}
+
+.copyright{
+    background-color: black;
+    text-align: center;
+    padding: 1px; 
+}
+
+@media  ( max-width:500px ) and ( max-width:800px)  {
+    .navbar{
+        flex-direction: column;
+    }
+}
+
+@media  ( max-width:500px ) and ( max-width:800px) {
+    .home h2{
+        padding-top: 40px;
+        font-size: 30px;
+        line-height: 1.0;
+        color: white;
+    }
+
+    .home-img h3{
+        font-size: 15px;
+        color: white;
+        padding-top: 500px;
+    }
+}
+
+@media  ( max-width:500px ) and ( max-width:800px)  {
+    .sports{
+        flex-direction: column;
+    }
+
+    .boxe{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .pool{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .basket{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media  ( max-width:500px ) and ( max-width:800px)  {
+    .service-top{
+        flex-wrap: wrap
+    }
+
+    .service-bottom{
+        flex-wrap: wrap
+    }
+
+    .dumbbell-text p{
+        font-size: 9px;
+        line-height: 1.0;
+    }
+
+    .scale-text p{
+        font-size: 9px;
+        line-height: 1.0;
+    }
+
+    .massage-text P{
+        font-size: 9px;
+        line-height: 1.0;
+    }
+
+    .formulaire-top{
+        margin-top: 5px;
+    }
+
+    .formulaire-bottom{
+        margin-top: 5px;
+    }
+
+    #prenom{
+        margin-top: 5px;
+    }
+
+    #nom{
+        margin-top: 10px;
+    }
+
+    #programmes{
+        margin-top: 10px;
+    }
+
+    #expériences{
+        width: 144px; 
+        height: 36px;
+        margin-left: 3px;
+    }
+
+    .sub{
+        margin-top: 5px;
+        margin-left: 2px;
+    }
+
+    .chigbo{
+        display: none;
+    }
+
+    .reason{
+        display: none;
+    }
+}
+
+@media  ( max-width:500px) and ( max-width:800px)  {
+    .review{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media  ( max-width:500px ) and ( max-width:800px)  {
+    .partenaire-body{
+        flex-wrap: wrap;
+    }
+
+    .addidas{
+        width: 50%;
+        height: 20vh;
+    }
+    
+    .partenaire-addidas p{
+        padding-top: 30px;
+        font-size: 10px;
+        line-height: 1.1;
+    }
+
+    .nike{
+        width: 50%;
+        height: 20vh;
+    }
+    
+    .partenaire-nike p{
+        padding-top: 30px;
+        font-size: 10px;
+        line-height: 1.1; 
+    }
+}
+
+@media  ( max-width:500px ) and ( max-width:800px)  {
+    .about-us p{
+        font-size: 8px;
+        line-height: 1.0;
+        padding-bottom: 20px;
+    }
+
+    .about{
+        padding-top: 10px;
+    }
+}
+
+@media  ( max-width:500px ) and ( max-width:800px)  {
+    .contacts{
+        flex-wrap: wrap;
+    }
+
+    .information{
+        padding-left: 0px;
+    }
+
+    .maps{
+        width: 100%;
+    }
+
+    .contact-logo{
+    width:50px ;
+    height: 50px;
+    }
+
+}
+
+@media screen and ( max-width:768px){
+    #expériences {
+        width: 280px;
+        position: relative;
+        right: 80px;
+    }
+
+    .sub {
+        margin-left: 93px;
+    }
+
+    .contact-logo{
+        display: none;
+    }
+
+    .information-right{
+        padding: 0;
+    }
+
+    .about-us p{
+        font-size: 16px;
+        line-height: 0.9;
+    }
+    
+}
