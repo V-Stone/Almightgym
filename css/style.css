@@ -920,14 +920,52 @@ display: inline-block;
 }
 
 @media screen and ( max-width:768px){
+    .home h2{
+        padding-top: 40px;
+        font-size: 30px;
+        line-height: 1.0;
+        color: white;
+    }
+
+    
+    .home-img h3{
+        font-size: 15px;
+        color: white;
+        padding-top: 145px;
+    }
+
+    
+
+    .formulaire-top{
+        margin-bottom: 50px;
+    }
+
+    .formulaire-bottom{
+        margin-bottom: 50px;
+    }
+
     #expériences {
         width: 280px;
         position: relative;
         right: 80px;
+        margin-top: 10px;
+    }
+
+    #nom{
+        margin-top: 5px;
+    }
+
+    #programmes{
+        margin-top: 5px;
     }
 
     .sub {
+        margin-top: 10px;
         margin-left: 93px;
+    }
+
+    .review{
+        margin-top: 30px;
     }
 
     .contact-logo{
