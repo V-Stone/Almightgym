@@ -61,12 +61,6 @@ h4{
     font-family: 'Anek Tamil', sans-serif;
 }
 
-h6{
-    color: white;
-    font-family: 'Anek Tamil', sans-serif;
-    font-size: 15px
-}
-
 p{
     color: white;
     font-family: 'Anek Tamil', sans-serif;
@@ -109,6 +103,8 @@ padding-top: 40px;
 }
 
 .boxe {
+    position: relative;
+    top: 25px;
     background-color: black;
     border: solid 1px rgb(255, 217, 0);
     border-radius: 10px;
@@ -124,7 +120,9 @@ padding-top: 40px;
 }
 
 .boxe-img{
-    width: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
     height: 120px;
 }
 
@@ -160,14 +158,15 @@ padding-top: 40px;
 }
 
 .pool-img{
-    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     width: 100%;
 }
 
 .button-pool{
     color:rgba(36, 39, 46, 1);  
     position: relative;
-    top:25px ;
+    top:12px ;
     border: 0;
     width: 120px;
     height: 35px;
@@ -179,6 +178,8 @@ padding-top: 40px;
 }
 
 .basket {
+    position: relative;
+    top: 25px;
     background-color: black;
     border: solid 1px rgb(255, 217, 0);
     border-radius: 10px;
@@ -194,7 +195,9 @@ padding-top: 40px;
 }
 
 .basket-img{
-    width: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
     height: 120px;
 }
 
@@ -270,6 +273,10 @@ padding-top: 40px;
     opacity: 15.0; 
 }
 
+.middle-heading h3{
+    color: rgba(36, 39, 46, 1);;
+}
+
 .middle-tarif{
     width: 200px;
     height: 250px;
@@ -282,6 +289,7 @@ padding-top: 40px;
     background-color: rgba(36, 39, 46, 1);
     padding: 1px;
 }
+
 .services .service-top .service h3{
     text-align: center;
 }
@@ -428,34 +436,39 @@ form{
 
 #prénom{
     border: none;
-    background-color: rgba(26, 27, 32, 1);
+    color: rgb(130, 130, 133);
+    background-color:rgb(20, 20, 24); 
     width: 144px; 
     height: 36px;
 }
 
 #nom{
     border: none;
-    background-color: rgba(26, 27, 32, 1);
+    color: rgb(130, 130, 133);
+    background-color:rgb(20, 20, 24); 
     width: 144px; 
     height: 36px;
 }
 
 #email{
     border: none;
-    background-color: rgba(26, 27, 32, 1);
+    color: rgb(130, 130, 133);
+    background-color:rgb(20, 20, 24); 
     width: 144px; 
     height: 36px;
 }
 
 #programmes{
     border: none;
-    background-color: rgba(26, 27, 32, 1);
+    color: rgb(130, 130, 133);
+    background-color:rgb(20, 20, 24); 
     height: 40px;
 }
 
 #expériences{
     border: none;
-    background-color: rgba(26, 27, 32, 1);
+    color: rgb(130, 130, 133);
+    background-color:rgb(20, 20, 24); 
     width: 410px;
     margin-left: 105px;
     margin-top: 20px;
@@ -749,12 +762,14 @@ display: inline-block;
 }
 
 @media  ( max-width:500px ) and ( max-width:800px)  {
+
     .navbar{
         flex-direction: column;
     }
 }
 
 @media  ( max-width:500px ) and ( max-width:800px) {
+
     .home h2{
         padding-top: 40px;
         font-size: 30px;
@@ -770,6 +785,7 @@ display: inline-block;
 }
 
 @media  ( max-width:500px ) and ( max-width:800px)  {
+
     .sports{
         flex-direction: column;
     }
@@ -791,6 +807,7 @@ display: inline-block;
 }
 
 @media  ( max-width:500px ) and ( max-width:800px)  {
+
     .service-top{
         flex-wrap: wrap
     }
@@ -855,6 +872,7 @@ display: inline-block;
 }
 
 @media  ( max-width:500px) and ( max-width:800px)  {
+
     .review{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -862,6 +880,7 @@ display: inline-block;
 }
 
 @media  ( max-width:500px ) and ( max-width:800px)  {
+
     .partenaire-body{
         flex-wrap: wrap;
     }
@@ -890,6 +909,7 @@ display: inline-block;
 }
 
 @media  ( max-width:500px ) and ( max-width:800px)  {
+
     .about-us p{
         font-size: 8px;
         line-height: 1.0;
@@ -902,6 +922,7 @@ display: inline-block;
 }
 
 @media  ( max-width:500px ) and ( max-width:800px)  {
+
     .contacts{
         flex-wrap: wrap;
     }
@@ -922,6 +943,7 @@ display: inline-block;
 }
 
 @media screen and ( max-width:768px){
+
     .home h2{
         padding-top: 40px;
         font-size: 30px;
