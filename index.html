@@ -266,28 +266,32 @@
                     <form method="post" action="v-stone.php">
 
                         <div class="formular-top">
-                            <input type="checkbox" name="Prénom" id="prénom" value="Prénom">
-                            <input type="checkbox" name="Nom" id="nom" value="Nom">
+                            <label for="prenom"><input type="text" name="Prénom" id="prénom" value="Prénom"></label>
+                           <label for="nom"> <input type="text" name="Nom" id="nom" value="Nom"></label>
                         </div>
 
                         <div class="formular-bottom">
 
-                            <input type="checkbox" name="Email" id="email" value="Email">
-                            <select name="programmes" id="programmes">
-                                <option value="tous les programmes">Tous les programmes</option>
-                                <option value="boxe">Boxe</option>
-                                <option value="natation">Natation</option>
-                                <option value="basket">Basket</option>
-                                <option value="musculation">Musculation</option>
-                                <option value="perte de poids">Perte de poids</option>
-                                <option value="spéciaux">Spéciaux</option>
-                            </select>
+                            <label for="email"><input type="text" name="Email" id="email" value="Email"></label>
+                            <label for="programmes">
 
+                                <select name="programmes" id="programmes">
+                                    <option value="tous les programmes">Tous les programmes</option>
+                                    <option value="boxe">Boxe</option>
+                                    <option value="natation">Natation</option>
+                                    <option value="basket">Basket</option>
+                                    <option value="musculation">Musculation</option>
+                                    <option value="perte de poids">Perte de poids</option>
+                                    <option value="spéciaux">Spéciaux</option>
+                                </select>
+
+                            </label> 
+                   
                         </div>
 
-                        <textarea name="Expériences" id="expériences" cols="30"
+                         <label for="experience"><textarea name="Expériences" id="expériences" cols="30"
                             rows="4">comment pouvons nous vous aider?
-                        </textarea>
+                        </textarea></label>
 
                         <div class="bouton">
                             <input class="sub" type="submit" value="Envoyer">
