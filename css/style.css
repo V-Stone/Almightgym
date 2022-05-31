@@ -90,7 +90,7 @@ p{
 
 .sport-heading {
     text-align: center;
-padding-top: 40px;
+    padding-top: 40px;
 }
 
 .sport-body {
@@ -115,7 +115,7 @@ padding-top: 40px;
 }
 
 .boxe p{
-    padding-top: 20px;
+    padding-top: 10px;
     line-height: 1.6;
 }
 
@@ -129,7 +129,7 @@ padding-top: 40px;
     color:rgba(36, 39, 46, 1);  
     opacity: 15.0;
     position: relative;
-    top:35px ;
+    top:30px ;
     border: 0;
     width: 120px;
     height: 35px;
@@ -152,7 +152,7 @@ padding-top: 40px;
 }
 
 .pool p{
-    padding-top: 20px;
+    padding-top: 10px;
     line-height: 1.5;
 }
 
@@ -165,7 +165,7 @@ padding-top: 40px;
 .button-pool{
     color:rgba(36, 39, 46, 1);  
     position: relative;
-    top:12px ;
+    top:19px ;
     border: 0;
     width: 120px;
     height: 35px;
@@ -189,7 +189,7 @@ padding-top: 40px;
 }
 
 .basket p{
-    padding-top: 20px;
+    padding-top: 10px;
     line-height: 1.6;
 }
 
@@ -203,7 +203,7 @@ padding-top: 40px;
     color:rgba(36, 39, 46, 1);  
     opacity: 15.0;
     position: relative;
-    top:10px ;
+    top: 6px ;
     border: 0;
     width: 120px;
     height: 35px;
@@ -214,7 +214,7 @@ padding-top: 40px;
     font-weight: bold;
 }
 
-.sports .sport-body p{
+.sport-body p{
     color: white;
 }
 
@@ -233,22 +233,22 @@ padding-top: 40px;
 
 }
 
-.tarifs .tarif-box .tarif p{
+.tarif p{
     padding-left: 20px;
     padding-right: 20px;
     line-height: 2.5;
 }
 
-.tarifs .tarif-box .tarif h3{
+ .tarif h3{
     font-size: 20px;
 }
 
-.tarifs .tarif-box .middle-tarif p{
+ .middle-tarif p{
     padding-right: 10px;
     line-height: 2.5;
 }
 
-.tarifs .tarif-box .middle-tarif h3{
+.middle-tarif h3{
     font-size: 20px;
 }
 
@@ -288,11 +288,11 @@ padding-top: 40px;
     padding: 1px;
 }
 
-.services .service-top .service h3{
+.service h3{
     text-align: center;
 }
 
-.services .service-top .service p{
+.service p{
     color: white;
 }
 
@@ -564,15 +564,15 @@ form{
     background-color:rgba(246, 191, 0, 1) ; 
 }
 
-.reviews .all-reviews .review .review-darelle p{
+.review-darelle p{
     color: white;
 }
 
-.reviews .all-reviews .review .review-carla p{
+.review-carla p{
     color: white;
 }
 
-.reviews .all-reviews .review .review-frank p{
+.review-frank p{
 color: white;
 }
 
