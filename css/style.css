@@ -434,7 +434,7 @@ form{
 }
 
 
-#prénom{
+#prenom{
     border: none;
     color: rgb(130, 130, 133);
     background-color:rgb(20, 20, 24); 
@@ -465,7 +465,7 @@ form{
     height: 40px;
 }
 
-#expériences{
+#experiences{
     border: none;
     color: rgb(130, 130, 133);
     background-color:rgb(20, 20, 24); 
@@ -851,7 +851,7 @@ display: inline-block;
         margin-top: 10px;
     }
 
-    #expériences{
+    #experiences{
         width: 144px; 
         height: 36px;
         margin-left: 3px;
